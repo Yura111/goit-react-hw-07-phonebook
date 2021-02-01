@@ -1,0 +1,17 @@
+.phonebook{
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.phonebook input::-webkit-outer-spin-button,
+.phonebook input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.phonebook input[type=number] {
+  -moz-appearance: textfield;
+}
